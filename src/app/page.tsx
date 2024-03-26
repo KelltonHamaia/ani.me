@@ -1,9 +1,10 @@
-import { ThemeSwitch } from "@/components/theme-switch";
+import { Header } from "@/components/header/header";
 
 const Page = () => {
 
     return (
-        <div className='w-full h-screen'>
+        <div className='container min-h-screen mx-auto lg:max-w-screen-xl md:max-w-2xl'>
+            <Header />
         </div>
     );
 

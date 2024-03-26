@@ -1,3 +1,4 @@
+const { fontFamily } = require("tailwindcss/defaultTheme")
 import type { Config } from "tailwindcss"
 
 const config = {
@@ -15,10 +16,14 @@ const config = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        "full-hd": "1920px"
       },
     },
     extend: {
-      colors: {
+        fontFamily: {
+            sans: ["var(--font-sans)", ...fontFamily.sans],
+          },
+        colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -74,7 +79,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("tailwind-scrollbar")],
 } satisfies Config
 
 export default config
