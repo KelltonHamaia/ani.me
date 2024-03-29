@@ -38,7 +38,11 @@ export const lastUpdatesData:LastUpdates[] = [
     },
     {
         id: 6, 
+<<<<<<< HEAD
         title: "One Punch Man!",
+=======
+        title: "One Punch Man",
+>>>>>>> 8e5cadbd2cfd9edffd6e07f51f9b005d48a83532
         episode: "10",
         image: "/images/updates/one-punch-man.png"
     },
