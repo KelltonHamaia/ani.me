@@ -1,5 +1,5 @@
 import { Menu, Search } from "lucide-react";
-import { Options } from "@/components/header/options";
+import { Filter } from "@/components/header/filter-options";
 import { MenuLinks } from "@/components/header/menu-options";
 
 export const Header = () => {
@@ -14,7 +14,7 @@ export const Header = () => {
                 </div>
             </div>
             <div>
-                <Options />
+                <Filter />
             </div>
         </nav>
     );

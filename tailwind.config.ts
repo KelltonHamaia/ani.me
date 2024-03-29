@@ -20,6 +20,13 @@ const config = {
       },
     },
     extend: {
+        backgroundImage: {
+            "one-punch-man": "url('/images/one-punch-man.png')",
+            "inazuma-eleven": "url('/images/inazuma-eleven-go.png')",
+            "suzumiya-haruhi": "url('/images/suzumiya-haruhi-no-yuuutsu.png')",
+            "nagatoro-san": "url('/images/ijiranaide-nagatoro-san-alt.png')",
+            "your-lie-in-april": "url('/images/your-lie-in-april.png')",
+        },
         fontFamily: {
             sans: ["var(--font-sans)", ...fontFamily.sans],
           },

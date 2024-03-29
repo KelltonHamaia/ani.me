@@ -1,7 +1,7 @@
-import { options } from "@/data/data";
+import { options } from "@/data/filter-list";
 import { Badge } from "@/components/ui/badge";
 
-export const Options = () => {
+export const Filter = () => {
 
     return (
         <ul className="flex gap-5 py-5 overflow-y-auto scrollbar-thin scrollbar-track-primary-foreground scrollbar-thumb-primary">
