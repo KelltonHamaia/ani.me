@@ -9,9 +9,9 @@ type Anime = {
 const lastNewsData:Anime[] = [
     {
         id: 1,
-        title: "One Punch Man",
+        title: "One Punch Man!",
         image: "bg-one-punch-man",
-        description: "Como relatado anteriormente, a franquia baseada no mangá escrito por ONE e ilustrado por Yusuke Murata, One Punch Man, divulgou um comunicado confirmando a produção de uma terceira temporada da adaptação para o anime […]"
+        description: "Como relatado anteriormente, a franquia baseada no mangá escrito por ONE e ilustrado por Yusuke Murata, One Punch Man!, divulgou um comunicado confirmando a produção de uma terceira temporada da adaptação para o anime […]"
     },
     {
         id: 2,
