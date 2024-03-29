@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Card, CardContent } from '@/components/ui/card';
-=======
-import { Card, CardContent, CardFooter } from '@/components/ui/card';
->>>>>>> 8e5cadbd2cfd9edffd6e07f51f9b005d48a83532
 
 type Props = {
     image: string,

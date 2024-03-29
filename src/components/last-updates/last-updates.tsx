@@ -1,11 +1,6 @@
 import { lastUpdatesData } from "@/data/last-updates";
-<<<<<<< HEAD
 import { AnimeCard } from "@/components/last-updates/card";
 import { Button } from "@/components/ui/button";
-=======
-import { AnimeCard } from "./card";
-import { Button } from "../ui/button";
->>>>>>> 8e5cadbd2cfd9edffd6e07f51f9b005d48a83532
 
 export const LastUpdates = () => {
 
