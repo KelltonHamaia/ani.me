@@ -1,10 +1,7 @@
 import { Header } from "@/components/header/header";
 import { LastNews } from "@/components/last-news/last-news";
 import { LastUpdates } from "@/components/last-updates/last-updates";
-<<<<<<< HEAD
 import { RecentAnimes } from "@/components/recent-animes/recent-animes";
-=======
->>>>>>> 8e5cadbd2cfd9edffd6e07f51f9b005d48a83532
 
 const Page = () => {
 
@@ -13,10 +10,7 @@ const Page = () => {
             <Header />
             <LastNews />
             <LastUpdates />
-<<<<<<< HEAD
             <RecentAnimes />
-=======
->>>>>>> 8e5cadbd2cfd9edffd6e07f51f9b005d48a83532
         </div>
     );
 
