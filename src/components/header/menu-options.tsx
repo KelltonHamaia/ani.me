@@ -10,7 +10,7 @@ export const MenuLinks = () => {
             <Input
                 type="text"
                 placeholder="Pesquisar"
-                className="px-3 py-2 rounded-full outline-none bg-primary-foreground placeholder:text-primary max-w-fit"
+                className="px-3 py-2 rounded-full outline-none dark:bg-primary-foreground placeholder:text-primary max-w-fit mr-2"
             />
         </nav>
     );
