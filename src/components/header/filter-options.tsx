@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 export const Filter = () => {
 
     return (
-        <ul className="flex gap-5 py-5 overflow-y-auto scrollbar-thin scrollbar-track-primary-foreground scrollbar-thumb-primary">
+        <nav className="flex gap-5 py-5 overflow-y-auto scrollbar-thin scrollbar-track-primary-foreground scrollbar-thumb-primary">
             {options.map(letter => (
                 <li key={letter.value}>
                     <Badge
@@ -15,7 +15,7 @@ export const Filter = () => {
                     </Badge>
                 </li>
             ))}
-        </ul>
+        </nav>
     );
 
 }
