@@ -10,6 +10,7 @@ export const LastUpdates = () => {
             {lastUpdatesData.map(anime => (
                 <AnimeCard
                     key={anime.id}
+                    id={anime.id}
                     image={anime.image}
                     title={anime.title}
                     episode={anime.episode}
