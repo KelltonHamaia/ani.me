@@ -6,7 +6,7 @@ const fontSans = FontSans({
 })
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
-import { Header } from "@/components/header/header";
+import { Header } from "@/components/home/header/header";
 
 type Props = {
     children: ReactNode

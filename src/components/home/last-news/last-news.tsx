@@ -1,4 +1,4 @@
-import { Banner } from "@/components/last-news/banner";
+import { Banner } from "@/components/home/last-news/banner";
 
 export const LastNews = () => {
     return (

@@ -1,7 +1,7 @@
 import { Menu, Search } from "lucide-react";
-import { Filter } from "@/components/header/filter-options";
-import { MenuLinks } from "@/components/header/menu-options";
-import { ThemeSwitch } from "../theme-switch";
+import { Filter } from "@/components/home/header/filter-options";
+import { MenuLinks } from "@/components/home/header/menu-options";
+import { ThemeSwitch } from "../../theme-switch";
 
 export const Header = () => {
     return (

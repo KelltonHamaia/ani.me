@@ -1,5 +1,5 @@
 import { lastUpdatesData } from "@/data/last-updates";
-import { AnimeCard } from "@/components/last-updates/card";
+import { AnimeCard } from "@/components/home/last-updates/card";
 import { Button } from "@/components/ui/button";
 
 export const LastUpdates = () => {

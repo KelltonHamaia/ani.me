@@ -1,5 +1,5 @@
 import { recentAnimesData } from "@/data/recent-animes";
-import { RecentAnimeCard } from "@/components/recent-animes/card";
+import { RecentAnimeCard } from "@/components/home/recent-animes/card";
 
 export const RecentAnimes = () => {
     return (

@@ -5,15 +5,11 @@ type Props = {
 }
 
 const Page = ({ id, name, episode }: Props) => {
-
     return (
-        <div className='w-full h-screen'>
-            {id}
-            {name}
-            {episode}
+        <div className='w-full'>
+
         </div>
     );
-
 }
 
 export default Page;
