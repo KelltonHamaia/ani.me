@@ -1,8 +1,12 @@
+"use client"
 import { lastUpdatesData } from "@/data/last-updates";
 import { AnimeCard } from "@/components/home/last-updates/card";
 import { Button } from "@/components/ui/button";
+import { useAnimeStore } from "@/store/anime-store";
 
 export const LastUpdates = () => {
+
+    const { updateAnime } = useAnimeStore(state => state);
 
     return (
         <section className='grid w-full grid-cols-2 gap-5 mt-10 lg:grid-cols-6 md:grid-cols-4'>
@@ -14,6 +18,7 @@ export const LastUpdates = () => {
                     image={anime.image}
                     title={anime.title}
                     episode={anime.episode}
+                    setAnimeToWatch={() => updateAnime(anime)}
                 />
             ))}
             <div className="col-span-full flex items-center ">

@@ -1,4 +1,4 @@
-export type LastUpdates = {
+export type AnimePlaying = {
     id: number,
     title: string,
     episode: string,

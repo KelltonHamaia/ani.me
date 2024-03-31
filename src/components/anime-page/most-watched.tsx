@@ -2,7 +2,7 @@ import { MostWatchedAnimesData } from "@/data/most-watched";
 export const MostWatchedAnimes = () => {
     return (
         <aside className='hidden w-auto ml-4 lg:flex lg:flex-col'>
-            <h2 className="flex flex-col h-12 text-xl font-semibold">
+            <h2 className="flex flex-col h-12 text-xl font-semibold my-2">
                 Mais assistidos
             </h2>
             {MostWatchedAnimesData.map(item => (
