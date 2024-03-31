@@ -79,3 +79,5 @@ export const lastUpdatesData:LastUpdates[] = [
         image: "/images/updates/inazuma-eleven.jpg"
     }
 ]
+
+export const getAnime = (id: number, episode: string) => lastUpdatesData.find(anime => anime.id === id && anime.episode === episode)
