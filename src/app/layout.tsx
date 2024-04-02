@@ -12,6 +12,9 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
     title: "Ani.me",
+    icons: {
+        icon: "/favicon.ico"
+    },
     description: "Desafio 29 da comunidade Codelândia",
 };
 
