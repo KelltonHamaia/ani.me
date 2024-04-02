@@ -1,3 +1,4 @@
+
 ![Tela inicial](https://raw.githubusercontent.com/KelltonHamaia/ani.me/main/public/images/home-screenshot.jpg)
 # Desafio 29: `Projeto Ani.me😀` 
 
@@ -16,3 +17,14 @@ Neste projeto, utilizei as seguintes tecnologias:
 **Para testar este projeto, rode o comando abaixo no terminal:** 
 
     https://github.com/KelltonHamaia/ani.me
+
+Depois, entre no diretório onde se encontra o clone deste projeto, e rode o comando:
+
+    npm install
+Por fim, para iniciar o projeto, utillize o comando:
+
+    npm run dev
+   
+Acesse o projeto no seu navegador de preferência com a URL: http://localhost:3000 
+
+É isso, abraços 😀
