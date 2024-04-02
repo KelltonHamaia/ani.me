@@ -1,7 +1,9 @@
 "use client"
 import { AnimeInfo } from "@/components/anime-page/anime-info";
 import { Comments } from "@/components/anime-page/comments";
+import { Related } from "@/components/anime-page/related";
 import { VideoArea } from "@/components/anime-page/video";
+import { Copyright } from "@/components/copyright/copyright";
 import { useAnimeStore } from "@/store/anime-store";
 import { redirect } from 'next/navigation'
 import { useEffect } from "react";
@@ -18,6 +20,8 @@ const Page = () => {
             <VideoArea />
             <AnimeInfo />
             <Comments />
+            <Related />
+            <Copyright />
         </div>
     );
 }

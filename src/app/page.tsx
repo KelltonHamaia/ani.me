@@ -2,7 +2,7 @@ import { Header } from "@/components/home/header/header";
 import { LastNews } from "@/components/home/last-news/last-news";
 import { LastUpdates } from "@/components/home/last-updates/last-updates";
 import { RecentAnimes } from "@/components/home/recent-animes/recent-animes";
-import { Copyright } from "@/components/home/copyright/copyright";
+import { Copyright } from "@/components/copyright/copyright";
 
 const Page = () => {
     return (
