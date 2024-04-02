@@ -1,3 +1,5 @@
+import { Comment } from '@/types/Comment'
+
 export type AnimePlaying = {
     id: number,
     title: string,
@@ -5,5 +7,6 @@ export type AnimePlaying = {
     image: string,
     synopsis: string,
     studio: string,
-    genre: string[]
+    genre: string[],
+    comments: Comment[]
 }

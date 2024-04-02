@@ -18,6 +18,7 @@ const initialState:States = {
         genre: [],
         studio: '',
         synopsis: '',
+        comments: []
     }
 }
 

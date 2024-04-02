@@ -1,5 +1,6 @@
 "use client"
 import { AnimeInfo } from "@/components/anime-page/anime-info";
+import { Comments } from "@/components/anime-page/comments";
 import { VideoArea } from "@/components/anime-page/video";
 import { useAnimeStore } from "@/store/anime-store";
 import { redirect } from 'next/navigation'
@@ -16,6 +17,7 @@ const Page = () => {
         <div className='w-full py-5'>
             <VideoArea />
             <AnimeInfo />
+            <Comments />
         </div>
     );
 }
