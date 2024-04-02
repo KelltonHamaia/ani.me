@@ -14,7 +14,10 @@ const initialState:States = {
         id: 0,
         title: "",
         episode: "",
-        image: ""
+        image: "",
+        genre: [],
+        studio: '',
+        synopsis: '',
     }
 }
 
