@@ -114,7 +114,7 @@ export const lastUpdatesData:LastUpdates[] = [
         title: "Inazuma Eleven",
         episode: "12",
         image: "/images/updates/inazuma-eleven.jpg",
-        synopsis: "10 anos após o FFI, uma escuridão despercebida esconde-se atrás do país. O Japão e o que costumava ser futebol mudou durante os 10 anos que se passaram. Neste momento, o futebol é diferente de antes e se tornou uma razão para as pessoas perderem a esperança e deixarem de jogar para quem gosta de futebol. O novo protagonista principal, Matsukaze Tenma, tenta o time de futebol e passa, mas em uma partida com outro time, ele logo percebe que o futebol é muito diferente do que ele esperava. que seja",
+        synopsis: "Enquanto outras escolas no Japão competem pelo título de melhor time de futebol do país, o clube de futebol da escola Raimon, chamado Inazama Eleven, esforça-se para não ser dissolvido. Mamoru Endou, neto do goleiro da primeira geração do Inazuma Eleven e capitão da equipe, assume o desafio de colocar o clube de voltar à forma. Para isso, ele vai precisar de um pouco de ajuda e um pouco mais de sorte e encontra esperança nas mãos de Shuuya Gouenji, um brilhante jovem jogador que desistiu do futebol. Mamoru está determinado a convencer Shuuya e outros novos recrutas a participar de seu time, não importa a que custo.",
         genre: ["Esporte"],
         studio: 'OLM'
 
