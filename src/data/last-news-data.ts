@@ -1,4 +1,4 @@
-type Anime = {
+export type Anime = {
     id: number,
     title: string,
     image: string,
@@ -41,6 +41,4 @@ const lastNewsData:Anime[] = [
     }
 ]
 
-
-let index = Math.floor(Math.random() * lastNewsData.length);
-export const bannerData = lastNewsData[index];
+export const getBannerData = () => lastNewsData[Math.floor(Math.random() * lastNewsData.length)]
