@@ -9,7 +9,7 @@ type LastUpdates = {
     synopsis: string,
     studio: string,
     genre: string[],
-    comments?: Comment[]
+    comments: Comment[]
 }
 
 export const lastUpdatesData:LastUpdates[] = [
