@@ -12,6 +12,14 @@ export const Banner = () => {
         setBannerImage(getBannerData())
     }, [])
 
+    if (!bannerImage) {
+        return (
+            <div className='w-full my-5 flex flex-col font-mono text-center text-xs md:text-base lg:text-xl items-center text-white font-bold justify-center lg:h-[400px] md:h-[300px] h-[180px] lg:bg-cover rounded-md dark:bg-primary-foreground bg-gradient-to-tr from-primary via-indigo-400 to-emerald-400 animate-pulse'>
+                Anime fresquinho chegando 🥰🥰🥰
+            </div>
+        )
+    }
+
     return (
         <div className={cn('w-full my-5 flex flex-col lg:h-[400px] md:h-[300px] h-[180px] lg:bg-cover bg-cover bg-center relative rounded-md overflow-hidden', bannerImage?.image)}>
             <div className="absolute w-full h-full pointer-events-none bg-zinc-950 opacity-80"></div>
