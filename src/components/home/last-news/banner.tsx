@@ -9,7 +9,9 @@ export const Banner = () => {
     const [bannerImage, setBannerImage] = useState<Anime>();
 
     useEffect(() => {
-        setBannerImage(getBannerData())
+        setTimeout(() => {
+            setBannerImage(getBannerData())
+        }, 100)
     }, [])
 
     if (!bannerImage) {
