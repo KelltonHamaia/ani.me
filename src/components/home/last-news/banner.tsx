@@ -17,8 +17,8 @@ export const Banner = () => {
     if (!bannerImage) {
         return (
             <div className='w-full my-5 pb-4 flex flex-col font-mono text-center text-xs md:text-base lg:text-xl gap-4 items-center justify-end text-white font-bold lg:h-[400px] md:h-[300px] h-[180px] lg:bg-cover rounded-md dark:bg-primary-foreground bg-primary animate-pulse'>
-                <div className='self-start w-full h-5 ml-4 rounded max-w-32 md:max-w-80 lg:max-w-3xl md:h-10 dark:bg-primary bg-primary-foreground'></div>
-                <div className='self-start w-full h-20 ml-4 rounded max-w-44 md:max-w-lg lg:max-w-4xl md:h-32 lg:h-40 dark:bg-primary bg-primary-foreground'></div>
+                <div className='self-start w-full h-5 ml-4 rounded max-w-32 md:max-w-80 lg:max-w-xl md:h-10 dark:bg-primary bg-primary-foreground'></div>
+                <div className='self-start w-full h-20 ml-4 rounded max-w-44 md:max-w-lg lg:max-w-2xl md:h-32 lg:h-40 dark:bg-primary bg-primary-foreground'></div>
             </div>
         )
     }
