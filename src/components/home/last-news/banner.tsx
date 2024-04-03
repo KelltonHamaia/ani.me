@@ -11,7 +11,7 @@ export const Banner = () => {
     useEffect(() => {
         setTimeout(() => {
             setBannerImage(getBannerData())
-        }, 100)
+        }, 1000)
     }, [])
 
     if (!bannerImage) {
